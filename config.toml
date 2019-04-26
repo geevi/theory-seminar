@@ -1,0 +1,59 @@
+
+baseurl = "http://faculty.iiit.ac.in/~theory/seminar/"
+theme = "hugo-tufte"
+title = "Theory Seminar"
+
+[taxonomies]
+  category = "categories" 
+  group = "groups"
+  series = "series"
+  tag = "tags"
+
+[params]
+  subtitle = "A biweekly seminar series at IIIT Hyerabad focused on theoretical talks from computer science, communications theory, machine learning and natural sciences."
+  copyrightHolder = "IIIT Hyderabad"
+  showPoweredBy = true
+
+
+
+# -----------------------------------------------------------------------
+# Navigation menu 
+# -----------------------------------------------------------------------
+[[menu.nav]]
+  name = "Upcoming Talks"
+  weight = -110 
+  identifier = "home"
+  url = "#upcoming"
+[[menu.nav]]
+  name = "Past Talks"
+  weight = -100 
+  identifier = "posts"
+  url = "#past"
+[[menu.nav]]
+  name = "Give a Talk"
+  weight = -90 
+  url = "#give"
+[[menu.nav]]
+  name = "Want to keep notified?"
+  weight = -90 
+  identifier = "categories"
+  url = "/categories"
+
+
+
+
+# -----------------------------------------------------------------------
+# Footer menu 
+# -----------------------------------------------------------------------
+# [[menu.footer]]
+#  name = ""
+#  pre = "<i class='fa fa-github fa-2x'></i> "
+#  weight = -100 
+#  identifier = "github"
+#  url = "https://github.com/shawnohare/hugo-tufte"
+#[[menu.footer]]
+#  name = ""
+#  pre = "<i class='fa fa-twitter fa-2x'></i> "
+#  weight = -90 
+#  identifier = "twitter"
+#  url = "https://twitter.com"

@@ -1,0 +1,56 @@
+{{ partial "header.html" . }}
+<body>
+<div id="layout" class="pure-g">
+<article class="pure-u-1">
+{{ partial "brand.html" . }}
+<a id="upcoming"></a>
+<h2>Upcoming Talks</h2>
+{{ range where .Pages "Section" "talks" }}
+    {{ $t := .Params.talkdate }}
+    {{ if ge $t now}}
+        <h3><a href="{{.URL}}">{{.Title }}</a></h3>
+        <p>
+        <a href="{{ .Params.speakerhomepage }}">{{ .Params.speaker }}</a><br/>
+        <i> {{ dateFormat "3:04PM" .Params.talkdate  }} | {{ .Params.venue }} | {{ dateFormat "2 Jan, 2006" .Params.talkdate  }}</i> </br>  
+        </p>
+        <blockquote>
+        {{ .Params.abstract }}</blockquote>
+    {{ end }}
+{{ end }}
+
+<a id="past"></a>
+<h2>Past Talks</h2>
+<figure class="fullwidth">
+    <table>
+    <thead>
+    <tr class="header">
+    <th>Talk</th>
+    <th>Speaker</th>
+    <th>Date</th>
+    </tr>
+    </thead>
+    <tbody>
+{{ range (where .Data.Pages "Type" "talks") }}
+{{ $t := .Params.talkdate }}
+    {{ if lt $t now}}
+<tr class="odd">
+    <td><a href="{{ .URL }}">{{ .Title }}</a></td>
+    <td><a href="{{ .Params.speakerhomepage }}">{{ .Params.speaker }}</a></td>
+    <td> {{ dateFormat "2 Jan, 2006" .Params.talkdate  }}</td>
+</tr>
+{{ end }}
+{{ end  }}
+
+</tbody>
+</table>
+</figure>
+
+{{ with .Site.GetPage "/home/info.md"}}
+    {{ .Content }}
+{{ end }}
+
+{{ partial "footer.html" . }}
+</article>
+</div>
+</body>
+</html>
