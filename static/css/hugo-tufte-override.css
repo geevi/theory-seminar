@@ -9,10 +9,6 @@ section {
   padding-top: initial;
   padding-bottom: initial;
 }
-article > section {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
 
 /* Make byline (date and/or author) small */
 p.byline { font-size: 1.2rem; }
@@ -94,10 +90,11 @@ section h3, p.subtitle {
 
 h2, h1, header.brand h1 a:link, header.brand h1 a:visited {
   color: #af0935;
+  margin-bottom: 10px;
 }
 
 header.brand h2 {
-  font-size: 1.5em;
+  font-size: 1.8em;
   max-width: 800px;
 }
 
@@ -105,7 +102,7 @@ header.brand h1 {
   padding-bottom: 5px;
 }
 
-a:link {
+a:link, a:visited {
   color: #0d3b86;
 }
 
@@ -113,7 +110,15 @@ nav.menu li a {
   color:  #0d3b86;
   font-size: 1.2em;
 }
-
+.fa {
+  color: #676666;
+  margin-left: 20px;
+}
+.content-meta {
+  font-size: 1.4rem;
+  line-height: 2.2rem;
+  color:  #676666;
+}
 nav.menu li {
   /* padding-right: 12px; */
   font-weight: bolder;
@@ -125,17 +130,56 @@ nav.menu li:last-child {
   border-right: black 0px solid;
 }
 
+#inst-logo-link, #inst-logo-link img {
+  text-decoration: none !important;
+  border:0px !important;
+  outline:none;
+  border-width: 0px;
+  outline-width:0px;
+  border-bottom: none;
+}
+
+.inst-logo {
+  width: 150px;
+  padding: 20px 0px;
+}
+
 body {
-  background-size: 5%;
-  background-repeat: no-repeat;
-  background-image: url(img/iiit-new.png);
-  background-position:
-  top right;
   background-color: #feffea;
  
   
 }
 
+.page-footer p {
+  width: 100%;
+}
+
 nav.menu ul {
   max-width: 100%;
+}
+
+.abstract {
+  max-width: 700px;
+}
+
+.talk-short {
+  /* border-bottom: 1px grey solid; */
+  max-width: 700px;
+}
+
+.talk-short h3, .talk-short p {
+  margin-right: 0;
+  padding-right: 0;
+  width: 100%;
+}
+
+article {
+  margin-top:3rem;
+  padding-top:0px;
+}
+
+footer.page-footer a {
+  color:rgb(129, 133, 136); 
+  text-decoration: underline;
+  background: transparent;
 }

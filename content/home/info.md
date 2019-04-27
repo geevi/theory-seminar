@@ -1,15 +1,25 @@
 +++
 
 +++
+### <a href="/~theory/seminar/categories">Explore talks by category.</a>
+
 ## Giving Talks 
+We expect faculty as well as students to give talks. Any student doing Honors, MS or PhD can give talks. We will try to ensure that faculty also gives talks regularly. Following are some basic expectations for the seminar:
+
+1. Delivered using chalk and board.
+2. Only assume 2nd year UG math background.
+3. Self contained.
+4. Focus on precise definitions, derivations, logical proofs, maths.
+5. Adversarial questioning of ambiguous content is encouraged, and the speakers should be prepared to address them.
+
 Please contact the student coordinator for scheduling talks.
 
 Student Coordinator : , email:
 
+
+
 ## More Info
 Student Coordinator:
-
-Faculty Coordinator:
 
 Join the google group for notifications on talks: https://groups.google.com/forum/#!forum/theory-seminar-iiith
 

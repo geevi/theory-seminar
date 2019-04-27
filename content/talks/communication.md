@@ -13,3 +13,5 @@ abstract goes here.
 +++
 Lecture notes could be put here. 
 $$a^2+b^2=c^2$$
+
+At the end of the lecture click a picture of the board and put here.

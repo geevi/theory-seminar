@@ -8,8 +8,9 @@
 
   {{ if .Site.Params.showPoweredBy}}
     <p>
+      Theory Seminar is coordinated by IIIT-H faculty: <a href="https://faculty.iiit.ac.in/~lalitha.v/">Lalitha</a>, <a href="https://faculty.iiit.ac.in/~prasad.krishnan/index.html">Prasad</a> & <a href="http://geevi.github.io">Girish</a>. <br/>
       Powered by <a href="https://gohugo.io">Hugo</a> and the
-      <a href="https://github.com/shawnohare/hugo-tufte">Tufte theme</a>.
+      <a href="https://github.com/shawnohare/hugo-tufte">Tufte theme</a> adapted by <a href="http://geevi.github.io">Girish</a>.
     </p>
   {{ end }}
 
@@ -19,7 +20,7 @@
       {{ . | safeHTML }}
     {{ else }}
       &copy; {{now.Format "2006"}}
-    {{ with .Site.Params.copyrightHolder }}{{ . }}{{end}}.
+      <a href="{{ .Site.Params.instWebsite }}">{{ with .Site.Params.copyrightHolder }}{{ . }}{{end}}</a>.
     All rights reserved.
     {{end}}
   </p>

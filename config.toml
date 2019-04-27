@@ -1,5 +1,5 @@
 
-baseurl = "http://faculty.iiit.ac.in/~theory/seminar/"
+baseurl = "https://faculty.iiit.ac.in/~theory/seminar/"
 theme = "hugo-tufte"
 title = "Theory Seminar"
 
@@ -13,9 +13,9 @@ title = "Theory Seminar"
   subtitle = "A biweekly seminar series at IIIT Hyerabad focused on theoretical talks from computer science, communications theory, machine learning and natural sciences."
   copyrightHolder = "IIIT Hyderabad"
   showPoweredBy = true
+  instWebsite = "http://iiit.ac.in"
 
-
-
+  
 # -----------------------------------------------------------------------
 # Navigation menu 
 # -----------------------------------------------------------------------
@@ -32,12 +32,12 @@ title = "Theory Seminar"
 [[menu.nav]]
   name = "Give a Talk"
   weight = -90 
-  url = "#give"
+  url = "#giving-talks"
 [[menu.nav]]
   name = "Want to keep notified?"
   weight = -90 
   identifier = "categories"
-  url = "/categories"
+  url = "#more-info"
 
 
 

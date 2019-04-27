@@ -6,16 +6,15 @@
 <a id="upcoming"></a>
 <h2>Upcoming Talks</h2>
 {{ range where .Pages "Section" "talks" }}
+    
     {{ $t := .Params.talkdate }}
     {{ if ge $t now}}
+    <section class="talk-short">
         <h3><a href="{{.URL}}">{{.Title }}</a></h3>
-        <p>
-        <a href="{{ .Params.speakerhomepage }}">{{ .Params.speaker }}</a><br/>
-        <i> {{ dateFormat "3:04PM" .Params.talkdate  }} | {{ .Params.venue }} | {{ dateFormat "2 Jan, 2006" .Params.talkdate  }}</i> </br>  
-        </p>
-        <blockquote>
-        {{ .Params.abstract }}</blockquote>
+        {{ partial "talk.details.html" . }}
+    </section>
     {{ end }}
+    
 {{ end }}
 
 <a id="past"></a>
