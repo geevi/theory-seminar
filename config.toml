@@ -23,21 +23,21 @@ title = "Theory Seminar"
   name = "Upcoming Talks"
   weight = -110 
   identifier = "home"
-  url = "#upcoming"
+  url = "/#upcoming"
 [[menu.nav]]
   name = "Past Talks"
   weight = -100 
   identifier = "posts"
-  url = "#past"
+  url = "/#past"
 [[menu.nav]]
   name = "Give a Talk"
   weight = -90 
-  url = "#giving-talks"
+  url = "/#giving-talks"
 [[menu.nav]]
   name = "Want to keep notified?"
   weight = -90 
   identifier = "categories"
-  url = "#more-info"
+  url = "/#more-info"
 
 
 
