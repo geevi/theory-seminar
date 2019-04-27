@@ -2,7 +2,7 @@
         <i class="fa fa-user">&nbsp;</i> <a href="{{ .Params.speakerhomepage }}">{{ .Params.speaker }}</a>, <a href="{{ .Params.speakerinstitutehomepage }}">{{ .Params.speakerinstitute }}</a> <br/>
         <i> <i class="fa fa-clock-o">&nbsp;</i> {{ dateFormat "3:04PM" .Params.talkdate  }} &nbsp;<i class="fa fa-calendar">&nbsp;</i> {{ dateFormat "2 Jan, 2006" .Params.talkdate  }}</i> &nbsp;<i class="fa fa-building" aria-hidden="true">&nbsp;</i> <i>{{ .Params.venue }}</i> </br>  
         {{ if .Params.categories }}
-                <i class="fa fa-tags"> </i>
+                <i class="fa fa-tags">&nbsp;</i>
         {{ range .Params.categories }}
           <a  href="{{ "" | absURL }}categories/{{ . | urlize }}">{{ . }}</a>,
         {{ end }}
