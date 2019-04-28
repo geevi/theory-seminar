@@ -145,7 +145,7 @@ nav.menu li:last-child {
 }
 
 body {
-  padding-left: 20px;
+  padding: 0px 20px;
   width: 100%;
 }
 
@@ -163,8 +163,15 @@ nav.menu ul {
   max-width: 100%;
 }
 
+
+ol, ul {
+  max-width: 700px;
+  width: 90%;
+}
+
 .abstract {
   max-width: 700px;
+  margin-left: 0px;
 }
 
 .talk-short {
