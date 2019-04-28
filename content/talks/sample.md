@@ -59,8 +59,9 @@ For instance:
 </p>
 
 is produced from
-```
-<p>
+
+{{< highlight tex >}}
+
 \begin{align*}  
   \mu(A) &= \iint_{I^2} \chi_A (x,y) \ d(x,y) 
   = \int_I \left( \int_I  \chi_A (x,y) \ dx\right) dy 
@@ -69,7 +70,19 @@ is produced from
   = \int_I \left(  \int_I \chi_A (x,y) \ dy \right) dx 
   =\int_I dx = 1,
 \end{align*} 
-</p>
+{{< /highlight >}}
+
+<br/>
+
+```go-html-template
+<section id="main">
+  <div>
+    <h1 id="title">{{ .Title }}</h1>
+    {{ range .Pages }}
+      {{ .Render "summary"}}
+    {{ end }}
+  </div>
+</section>
 ```
 
 ### Blockquotes
@@ -97,13 +110,14 @@ the `newthought` shortcode.
 ### Code
 As an example of some inline code: `go test -v -short`.
 And this is some block-code:
-```go
+{{< highlight go >}}
+
 package main
 
 import "log"
 
 func add(x int, y int) int {
-  log.Println("We are going to take the sum of two numbers, and leave a long comment.")
+  log.Println("We are going to take the sum of two numbers.")
   return x + y
 }
 
@@ -111,7 +125,9 @@ func main() {
   y := add(1, 2)
   log.Println(y)
 }
-```
+{{< /highlight>}}
+
+
 ### Figure
 Below we have an example of a regular width figure.
 {{< figure

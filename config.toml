@@ -3,6 +3,8 @@ baseurl = "https://faculty.iiit.ac.in/~theory/seminar/"
 theme = "hugo-tufte"
 title = "Theory Seminar"
 
+pygmentsCodeFences = true
+
 [taxonomies]
   category = "categories" 
   group = "groups"

@@ -171,8 +171,35 @@ ol, ul {
 
 .abstract {
   max-width: 700px;
-  margin-left: 0px;
+  margin-left: 10px;
+  font-size: 1.2rem;
 }
+
+.toc {
+  margin: 40px 0px;
+  border-top: 1px #b7b4b4 solid;
+  border-bottom: 1px #b7b4b4 solid;
+  padding-left: 10px;
+  color : #797575
+}
+
+
+.toc {
+  min-height: 40px;
+  max-width: 700px;
+}
+
+.toc li {
+  margin: 0 1rem;
+  line-height: 1.6rem;
+}
+
+pre code {
+  width: 100%;
+  padding-left: 0;
+  overflow-x: visible
+}
+
 
 .talk-short {
   /* border-bottom: 1px grey solid; */
