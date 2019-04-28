@@ -145,6 +145,11 @@ nav.menu li:last-child {
 }
 
 body {
+  padding-left: 20px;
+  width: 100%;
+}
+
+body {
   background-color: #feffea;
  
   
