@@ -14,12 +14,12 @@ We expect faculty as well as students to give talks. Any student doing Honors, M
 
 Please contact the student coordinator for scheduling talks.
 
-Student Coordinator : , email:
+Student Coordinators : Divija Swetha Gadiraju (divija.swetha@research.iiit.ac.in), Shailja Agrawal (shailja.agrawal@research.iiit.ac.in)
 
 
 
 ## More Info
-Student Coordinator:
+For more information you can contact the student coordinators.
 
 Join the google group for notifications on talks: https://groups.google.com/forum/#!forum/theory-seminar-iiith
 

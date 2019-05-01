@@ -1,6 +1,6 @@
 +++
-title = "Sample Talk"
-speaker = "Nobody"
+title = "--"
+speaker = "--"
 speakerhomepage = "home"
 talkdate = 2019-03-20T17:00:00+09:00
 venue = "A3-114, CSTAR"
