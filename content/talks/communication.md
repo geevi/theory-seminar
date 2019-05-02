@@ -1,6 +1,6 @@
 +++
 title = "Codes with Locality for Distributed Storage"
-speaker = "Lalitha Vadlamani"
+speaker = "Lalitha Vadlamani, SPCRC, IIIT-H"
 speakerhomepage = "home"
 talkdate = 2019-05-07T16:00:00+09:00
 venue = "A3-114, CSTAR"
