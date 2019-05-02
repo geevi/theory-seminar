@@ -71,6 +71,21 @@ pre:not(.sourceCode) code {
   }
 }
 
+
+@media (max-width: 460px) {
+  h1 {
+    font-size: 2.4rem;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+  }
+
+  blockquote {
+    margin: 0;
+  }
+}
+
 /* Math formatting */
 .katex {
   font-size: inherit !important;
@@ -197,12 +212,13 @@ ol, ul {
 pre code {
   width: 100%;
   padding-left: 0;
-  overflow-x: visible
+  overflow-x: visible;
+  /* margin-left: 10px; */
 }
 
 
 .talk-short {
-  /* border-bottom: 1px grey solid; */
+  border-bottom: 1px grey solid;
   max-width: 700px;
 }
 

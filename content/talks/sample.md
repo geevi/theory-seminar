@@ -2,7 +2,7 @@
 title = "---"
 speaker = "---"
 speakerhomepage = "home"
-talkdate = 2019-03-20T17:00:00+09:00
+talkdate = 2019-03-20T16:00:00+09:00
 venue = "A3-114, CSTAR"
 meta = true
 math = true
@@ -12,6 +12,8 @@ categories = ["communication", "information-theory"]
 abstract = """
 sdffdsa
 """
+draft = true
+
 +++
 
 This is a quick demonstration post.  It serves as an example of the features
