@@ -6,9 +6,9 @@ talkdate = 2019-05-07T16:00:00+09:00
 venue = "A3-114, CSTAR"
 meta = true
 math = true
-categories = ["communication", "information-theory", "distributed storage system"]
+categories = ["Communication", "Information-theory", "Distributed Storage System"]
 abstract = """
-In a distributed storage system, due to increase of storage capacity of a node, efficient repair of failed nodes is becoming increasingly important in addition to ensuring a given level of reliability and low storage overhead. Codes with locality are a class of codes designed for storage systems which have the characteristic that they trade off repair locality (number of nodes accessed to repair a failed node) for storage overhead. In this talk, we will survey the following results related to codes with locality: 
+In a distributed storage system, due to increase of storage capacity of a node, efficient repair of failed nodes is becoming increasingly important in addition to ensuring a given level of reliability and low storage overhead. Codes with locality are a class of codes designed for storage systems which have the characteristic that they trade off repair locality (number of nodes accessed to repair a failed node) for storage overhead. In this talk, we will survey the following results related to codes with locality:
 
 1) Tradeoff between repair locality and storage overhead using a Singleton-like bound and a class of optimal codes known as Pyramid codes.
 
