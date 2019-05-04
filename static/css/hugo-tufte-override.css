@@ -133,6 +133,7 @@ nav.menu li a {
   font-size: 1.4rem;
   line-height: 2.2rem;
   color:  #676666;
+  margin: 1em 0;
 }
 nav.menu li {
   /* padding-right: 12px; */
@@ -186,8 +187,10 @@ ol, ul {
 
 .abstract {
   max-width: 700px;
-  margin-left: 10px;
+  /* margin-left: 10px; */
+  padding: 10px 0px 0px 0px;
   font-size: 1.2rem;
+  color: #525151;
 }
 
 .toc {
@@ -218,8 +221,9 @@ pre code {
 
 
 .talk-short {
-  border-bottom: 1px grey solid;
+  /* border-bottom: 1px grey solid; */
   max-width: 700px;
+  padding-bottom: 10px;
 }
 
 .talk-short h3, .talk-short p {
@@ -237,4 +241,8 @@ footer.page-footer a {
   color:rgb(129, 133, 136); 
   text-decoration: underline;
   background: transparent;
+}
+
+.content-meta span {
+  color: black;
 }

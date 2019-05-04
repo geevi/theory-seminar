@@ -12,7 +12,7 @@ pygmentsCodeFences = true
   tag = "tags"
 
 [params]
-  subtitle = "A biweekly seminar series at IIIT Hyerabad focused on theoretical talks from computer science, communications theory, machine learning and natural sciences."
+  subtitle = "A fortnightly seminar series at IIIT Hyerabad focused on theoretical talks from computer science, communications theory, machine learning and natural sciences."
   copyrightHolder = "IIIT Hyderabad"
   showPoweredBy = true
   instWebsite = "http://iiit.ac.in"
@@ -29,7 +29,6 @@ pygmentsCodeFences = true
 [[menu.nav]]
   name = "Past Talks"
   weight = -100 
-  identifier = "posts"
   url = "/#past"
 [[menu.nav]]
   name = "Give a Talk"
