@@ -2,7 +2,7 @@
 
 ## Install Prequisites
 
-To render the  website a recent (https://gohugo.io)[hugo] installation is required.
+To render the  website a recent [hugo](https://gohugo.io) installation is required.
 
 ## Run local development version
 
