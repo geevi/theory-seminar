@@ -1,0 +1,6 @@
+<blockquote class="block {{ .Get "type" }}" cite="{{ .Get "name" }}">
+  <span class="type">{{ .Get "type" }}</span>
+  <b>{{ .Get "name" }}</b>
+  {{ .Inner }}
+  <footer>{{ .Get "footer" }}</footer>
+</blockquote>

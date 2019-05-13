@@ -13,7 +13,23 @@
   <span class="content-meta">
     {{ partial "talk.details.html" . }}
   </span>
-    
+  {{ if .Params.scribe_name }}
+  <div class="scribe">
+    <p>
+  Notes scribed by <a {{ if .Params.scribe_link }} href="{{ .Params.scribe_link }}" {{ end }}>{{ .Params.scribe_name }}</a>. 
+  Please make any corrections/additions by  
+  <a href="https://github.com/geevi/theory-seminar/edit/master/content/{{ .Dir  }}{{ .File  }}.md">editing this page.</a>
+
+</p>  
+</div>
+  {{ else }}
+  <div class="scribe">
+  <p>
+      Please volunteer and scribe notes by  
+      <a href="https://github.com/geevi/theory-seminar/edit/master/content/{{ .Dir  }}{{ .File  }}.md">editing this page.</a>
+    </p>
+    </div>
+  {{ end }}
 {{ end }}
 {{ end }}
 </section>

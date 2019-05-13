@@ -1,0 +1,5 @@
+<blockquote class="lemma" cite="{{ .Get "name" }}">
+  <span class="type">LEMMA</span>
+  {{ if .Get "name" }}<b>{{ .Get "name" }}</b> {{ end }}
+  {{ .Inner }}
+</blockquote>

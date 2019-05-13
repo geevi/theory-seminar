@@ -200,7 +200,15 @@ ol, ul {
   padding-left: 10px;
   color : #797575
 }
-
+h4 {
+  text-decoration: none;
+    /* background: transparent; */
+    color: rgba(65, 70, 75, 1);
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    text-align: center;
+    max-width: 700px;
+}
 
 .toc {
   min-height: 40px;
@@ -245,4 +253,32 @@ footer.page-footer a {
 
 .content-meta span {
   color: black;
+}
+
+.type {
+  font-size: 0.6em;
+    color:  #ff8100;
+}
+
+.exercise, .definition, .lemma {
+  margin-left: 0px;
+  padding-left: 20px;
+  border-left: 2px #ff8100 dotted;
+  /* background-color: antiquewhite; */
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.type {
+  letter-spacing: 0.2em;
+  margin-bottom: 5px;
+  display: block;
+}
+.exercise p, .definition p, .lemma p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.scribe {
+  font-size: 1.2em;
+  font-style: italic
 }
