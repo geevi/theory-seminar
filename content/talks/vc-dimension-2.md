@@ -1,10 +1,10 @@
 +++
-title = "VC Dimension, Uniform Convergence, and Sample Complexity in PAC Learning - I"
+title = "VC Dimension, Uniform Convergence, and Sample Complexity in PAC Learning - II"
 speaker = "Tushant Jha"
 speakerhomepage = "https://in.linkedin.com/in/particlemania"
 speakerinstitute = "CSTAR, IIITH"
 speakerinstitutehomepage = "http://iiit.ac.in"
-talkdate = 2019-07-10T16:00:00+09:00
+talkdate = 2019-07-24T16:00:00+09:00
 venue = "A3 117 Conf. Hall, CSTAR Corridor"
 meta = true
 math = true
